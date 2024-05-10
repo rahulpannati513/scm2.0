@@ -3,3 +3,15 @@ put.css --watch
 
 The above code should be run in the terminal inorder to run the tailwind css perfectly
 
+
+
+Thymleaf 
+
+Workign with fragments in Thymleaf
+
+we can use fragements any where we want in our file  insert or replace in our file
+our host tag will move and replaced by fragements created in commonheaderfile
+
+<body> 
+  <div th:insert="footer :: copy">...</div>
+</body>
